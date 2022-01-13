@@ -47,13 +47,65 @@
             </TabItem>
             <TabItem Header="Nauczyciel">
                 <Grid Background="#FFE5E5E5">
-                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Imie" TextWrapping="Wrap" VerticalAlignment="Top"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" Text="Drugie imie" TextWrapping="Wrap" VerticalAlignment="Top"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="10,52,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.345,-0.183"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="137*"/>
+                        <ColumnDefinition Width="657*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,13,0,0" Text="Imie" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="9,34,0,0" Text="Drugie imie" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,57,0,0" Text="Nazwisko" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.345,-0.183"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="9,80,0,0" Text="Nazwisko panienskie" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="9,103,0,0" Text="Imiona rodziców" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="9,129,0,0" Text="Data urodzenia" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="9,154,0,0" Text="Pesel" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.373,1.383"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="11,180,0,0" Text="Zdjęcie" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="11,218,0,0" Text="Płeć" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.641,1.822"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,248,0,0" Text="Wychowawstwo" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.496,1.008"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="9,269,0,0" Text="Przedmioty nauczane" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.101,0.005"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,300,0,0" Text="Klasy, wktórych uczy z godzinami" TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="9,330,0,0" Text="Data zatrudnienia" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="56,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Margin="56,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Margin="56,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Margin="56,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Margin="56,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <DatePicker HorizontalAlignment="Left" Margin="56,125,0,0" VerticalAlignment="Top" Height="23" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Margin="56,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Margin="56,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,1.118" Grid.Column="1"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="56,176,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.328,0.004" Height="34" Width="41" Grid.Column="1"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="56,215,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <CheckBox Content="" HorizontalAlignment="Left" Margin="56,246,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.182,0.336" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Margin="56,298,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <DatePicker HorizontalAlignment="Left" Margin="56,326,0,0" VerticalAlignment="Top" Grid.Column="1"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Obsługa">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Imie" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.487,0.882"/>
+                    <TextBox HorizontalAlignment="Left" Margin="165,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" Text="Drugie Imie" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.02,-0.12"/>
+                    <TextBox HorizontalAlignment="Left" Margin="165,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox HorizontalAlignment="Left" Margin="165,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,54,0,0" Text="Nazwisko" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="165,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,77,0,0" Text="Nazwisko panienskie" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,100,0,0" Text="Imiona rodziców" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,126,0,0" Text="Data urodzenia" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.264,-0.308"/>
+                    <TextBox HorizontalAlignment="Left" Margin="165,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <DatePicker HorizontalAlignment="Left" Margin="165,122,0,0" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="165,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.283,0.227"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="11,152,0,0" Text="Pesel" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Margin="165,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,185,0,0" Text="Zdjęcie" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="165,174,0,0" VerticalAlignment="Top" Height="38" Width="43"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,220,0,0" Text="Plec" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="165,217,0,0" VerticalAlignment="Top" Width="120"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,247,0,0" Text="Informacje o etacie" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="165,244,0,0" VerticalAlignment="Top" Width="120"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,272,0,0" Text="Opis stanowiska" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="11,293,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                    <DatePicker HorizontalAlignment="Left" Margin="165,294,0,0" VerticalAlignment="Top"/>
+                </Grid>
             </TabItem>
             <TabItem Header="Dane-Uczen">
                 <Grid Background="#FFE5E5E5"/>
